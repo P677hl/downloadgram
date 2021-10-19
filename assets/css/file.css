@@ -1,85 +1,8 @@
 /* code by PrayogaBRD */
-@font-face {
-  font-family: rarw;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/allertastencil/v11/HTx0L209KT-LmIE9N7OR6eiycOe1_Db29XP-vA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
 body {
-    width: 100%;
-    padding: 0px;
+    padding: 0;
+    background-color: #eee;
 }
-/* bagian support */
-#pelanggan {
-    padding: 10px;
-    background: linear-gradient(to right, #1cb5e0, #000046);
-}
-#titik1, #titik2 {
-    font-size: 15px;
-    color: #fff;
-}
-#judul3 {
-    font-family: rarw;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-}
-#Dana {
-    padding: 0px;
-    width: 175px;
-    border-radius: 0px 20px 40px;
-    box-shadow: 5px 5px 5px #2e80ed;
-    transition: 0.5s all;
-}
-#Dana:hover {
-    box-shadow: 5px 5px 5px transparent;
-    width: 177px;
-}
-/* end support */
-/* kontak */
-#kontak {
-    padding: 15px;
-}
-#Tzy1 {
-    width: 20px;
-    background-color: #424242;
-    border-radius: 3px;
-    padding: 5px 25px;
-    color: #fff;
-    font-size: 20px;
-    transition: 1s all;
-}
-#Tzy1:hover {
-    width: 22px;
-}
-#Tzy2 {
-    width: 20px;
-    background-color: red;
-    border-radius: 3px;
-    padding: 5px 25px;
-    color: #fff;
-    font-size: 20px;
-    transition: 1s all;
-}
-#Tzy2:hover {
-    width: 22px;
-}
-#Tzy3 {
-    width: 20px;
-    background-color: #FF49FE;
-    border-radius: 3px;
-    padding: 5px 25px;
-    color: #fff;
-    font-size: 20px;
-    transition: 1s all;
-}
-#Tzy3:hover {
-    width: 22px;
-}
-/* end kontak */
 /* bagian copyright */
 .footer {
     clear: both;
